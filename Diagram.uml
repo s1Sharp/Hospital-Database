@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>3208219c-6ff6-4e16-b293-bb641a661ad1.DATABASE:hospital</OriginalElement>
+  <nodes>
+    <node x="655.9871794871794" y="171.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.type</node>
+    <node x="224.0" y="579.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.patients</node>
+    <node x="0.0" y="535.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.employee</node>
+    <node x="195.98717948717945" y="882.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.infocard</node>
+    <node x="463.7564102564102" y="634.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.treatment</node>
+    <node x="217.0" y="127.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.hospital</node>
+    <node x="911.0" y="0.0">3208219c-6ff6-4e16-b293-bb641a661ad1.VIEW:hospital.public.drug_count_compare</node>
+    <node x="1149.0" y="0.0">3208219c-6ff6-4e16-b293-bb641a661ad1.VIEW:hospital.public.drug_count</node>
+    <node x="658.2564102564102" y="634.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.avail_medicament</node>
+    <node x="410.0" y="375.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.diagnoses</node>
+    <node x="507.98717948717945" y="0.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.town</node>
+    <node x="573.0" y="342.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.medicament</node>
+    <node x="207.0" y="353.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.room</node>
+    <node x="0.0" y="1224.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.testrepl</node>
+    <node x="141.0" y="1224.0">3208219c-6ff6-4e16-b293-bb641a661ad1.VIEW:hospital.public.drug_count_rating</node>
+    <node x="505.98717948717945" y="149.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.fabricator</node>
+    <node x="736.0" y="353.0">3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.drugstore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.patients" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.room">
+      <point x="0.0" y="-104.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.fabricator" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.town">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.avail_medicament" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.drugstore">
+      <point x="40.0" y="-49.5" />
+      <point x="778.2564102564102" y="510.0" />
+      <point x="801.0" y="510.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.infocard" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.patients">
+      <point x="0.0" y="-148.5" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.medicament" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.fabricator">
+      <point x="-35.75000000000003" y="-71.5" />
+      <point x="608.7499999999999" y="317.0" />
+      <point x="570.9871794871794" y="317.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.infocard" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.treatment">
+      <point x="68.66666666666663" y="-148.5" />
+      <point x="367.6538461538461" y="857.0" />
+      <point x="542.7564102564102" y="857.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.treatment" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.medicament">
+      <point x="39.5" y="-49.5" />
+      <point x="582.2564102564102" y="510.0" />
+      <point x="608.75" y="510.0" />
+      <point x="-35.75" y="71.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.room" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.hospital">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.treatment" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.diagnoses">
+      <point x="-39.5" y="-49.5" />
+      <point x="503.2564102564102" y="510.0" />
+      <point x="481.5" y="510.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.medicament" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.type">
+      <point x="35.74999999999997" y="-71.5" />
+      <point x="680.2499999999999" y="317.0" />
+      <point x="718.9871794871794" y="317.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.avail_medicament" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.medicament">
+      <point x="-40.0" y="-49.5" />
+      <point x="698.2564102564102" y="510.0" />
+      <point x="680.2499999999999" y="510.0" />
+      <point x="35.74999999999997" y="71.5" />
+    </edge>
+    <edge source="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.infocard" target="3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.employee">
+      <point x="-68.66666666666669" y="-148.5" />
+      <point x="230.32051282051276" y="857.0" />
+      <point x="102.0" y="857.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6083457526080477" x="593.6218836837531" y="653.7540725349315" />
+  <SelectedNodes>
+    <node>3208219c-6ff6-4e16-b293-bb641a661ad1.TABLE:hospital.public.drugstore</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
